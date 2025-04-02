@@ -1,13 +1,13 @@
 {% set name = "nuscenes-devkit" %}
-{% set version = "1.1.2" %}
+{% set version = "1.1.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/nutonomy/nuscenes-devkit/archive/v{{ version }}.tar.gz
-  sha256: 2efafb81a7c13b5e4dc278f28636a26f43335929792e80fa70a78a0ad45a9744
+  url: https://github.com/nutonomy/nuscenes-devkit/archive/{{ version }}.tar.gz
+  sha256: a22592f4a546c8dc32ef992e2efc781341bd4ac01250d0262933f6d017e26b00
   patches:
     - patches/0001-Use-os-specific-path-seperator.patch
 
