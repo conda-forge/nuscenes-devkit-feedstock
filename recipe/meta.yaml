@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install ./setup -vv --no-deps --no-build-isolation
 
 requirements:
@@ -29,8 +29,8 @@ requirements:
     - flake8
     - flake8-import-order
     - jupyter
-    - matplotlib <3.6.0
-    - numpy >=1.22.0,<2.0.0
+    - matplotlib
+    - numpy
     - parameterized
     - pillow >6.2.1
     - py-opencv >=4.5.4.58
