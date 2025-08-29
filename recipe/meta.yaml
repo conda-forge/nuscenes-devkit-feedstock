@@ -30,7 +30,7 @@ requirements:
     - flake8-import-order
     - jupyter
     - matplotlib
-    - numpy
+    - numpy >=1.22.0,<2.0.0
     - parameterized
     - pillow >6.2.1
     - py-opencv >=4.5.4.58
@@ -38,7 +38,7 @@ requirements:
     - pyquaternion >=0.9.5
     - scikit-learn
     - scipy
-    - shapely
+    - shapely ~=2.0.3
     - tqdm
 
 test:
