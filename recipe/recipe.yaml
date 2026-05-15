@@ -31,7 +31,7 @@ requirements:
     - cachetools
     - descartes
     - fire
-    - matplotlib >=3.6.0
+    - matplotlib-base >=3.6.0
     - numpy >=1.22.0,<2.0.0
     - parameterized
     - pillow >6.2.1
